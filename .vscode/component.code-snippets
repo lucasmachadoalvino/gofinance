@@ -1,0 +1,25 @@
+{
+	"New component": {
+		"prefix": "comp",
+		"body": [
+      "import React from 'react';",
+      "import { Text } from 'react-native';",
+      "",
+      "export function ${1:ComponentName}() {",
+			"  return <Text>${1:ComponentName}</Text>;",
+			"}",
+      ""
+		],
+		"description": "Creates a new JSX component"
+	},
+	"New styled-component": {
+		"prefix": "styled",
+		"body": [
+      "import styled from 'styled-components/native';",
+      "",
+      "export const Container = styled.View``;",
+      ""
+		],
+		"description": "Creates a new styled-component"
+	}
+}
