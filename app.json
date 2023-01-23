@@ -15,6 +15,16 @@
     },
     "android": {
       "package": "com.gofinance"
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#5636D3"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4589917f-b5ea-4485-b100-d328b5ce46b0"
+      }
     }
   }
 }
